@@ -1,0 +1,13 @@
+{% extends "shop/base.html" %}
+{% load static %}
+{% block title %}Pay using PayPal{% endblock %}
+
+{% block content %}
+  <h1>Pay using PayPal</h1>
+  {{ form.render }}
+  <h1>Pay using ECPay</h1>
+  <a href="https://ef2f-2001-b011-4009-19f9-ac9b-4d89-5176-89d3.ngrok.io/payment/ecpay ">
+    <img src="{%static 'logo.jpg'%}" style="width:200px;height:200px"></a> 
+{% endblock %}
+
+
